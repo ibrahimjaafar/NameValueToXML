@@ -1,0 +1,86 @@
+.highlight {
+    background: yellow;
+}
+
+* {
+	box-sizing: border-box;
+}
+body{
+	margin-left: 20px;
+}
+#pairText{
+	padding-left: 200px;
+	display:block;
+}
+input{
+	padding: 3px 32px;
+	margin: 4px 2px;
+	 border: 0.1rem solid #5889ba;
+}
+.submitBtn{
+	position:absolute;
+	margin-left: 1.5rem;
+	background-color: #5889b9;
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+	border-radius: .3rem;
+	transition: all .2s ease-in-out;
+}
+.submitBtn:hover{
+	background-color: #023aa5;
+}
+
+.container {
+    display: inline-table;
+    height: 20rem;
+    border: 0.1rem solid #5889ba;
+}
+.btns > input{
+	display:block;
+	background-color: #5889b9;
+    border: none;
+    color: white;
+    padding: 3px 32px;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+	border-radius: .3rem;
+	transition: all .2s ease-in-out;
+}
+.btns > input:hover{
+	background-color: #023aa5;
+}
+h4{
+	opacity: 0.6;
+}
+
+@media only screen and (min-width: 100px) {
+    .col-m-1 {width: 8.33%;}
+    .col-m-2 {width: 16.66%;}
+    .col-m-3 {width: 25%;}
+    .col-m-4 {width: 33.33%;}
+    .col-m-5 {width: 41.66%;}
+    .col-m-6 {width: 50%;}
+    .col-m-7 {width: 58.33%;}
+    .col-m-8 {width: 66.66%;}
+    .col-m-9 {width: 75%;}
+    .col-m-10 {width: 83.33%;}
+    .col-m-11 {width: 91.66%;}
+    .col-m-12 {width: 100%;}
+	.btns{
+	margin-right: -1.5rem;
+	float:right;
+}
+p {
+    margin: 3px;
+    font-size: 18px;
+    cursor: pointer;
+	word-wrap: break-word;
+}
+}
+
+
+
+

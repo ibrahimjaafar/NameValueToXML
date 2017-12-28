@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Name/Value Pair to XML</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<link href="style.css" rel="stylesheet">
+	
+</head>
+
+
+<body>
+	
+	
+	<div>
+			<h4>Name/Value Pair</h4>
+		<form name="form1" action="">
+			<input type="text" class="col-m-6" name="name_value" value="Name=Value"/>
+			<input type="button" class="submitBtn" name="submit" value="Add" onClick="add(document.form1.name_value)"/>
+			<h5 class="errorText"></h5>
+	</form>
+	
+	</div>
+	<h4>Name/Value Pair List</h4>
+	<div class="row">
+	<div class="btns col-m-6">
+		    <input type="button" name="sortbyname" value="Sort by name" />
+			<input type="button" name="sortbyvalue" value="Sort by value" /></br>
+			<input type="button" name="delete" value="Delete" /></br>
+			<input type="button" name="toxml" value="Show XML" />
+	</div>
+	<div class="container col-m-6">
+		
+	</div>
+	</div>
+
+<script src="app.js"></script>
+</body>
+</html>
