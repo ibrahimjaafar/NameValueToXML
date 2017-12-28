@@ -1,10 +1,12 @@
 
 
-An application which allow the format to be entere
+Enter the pair values as follows:
 
     Key=Value
     
-    
+Then add the pair to the list.
+
+
 Options are:
 
 Sort by name
